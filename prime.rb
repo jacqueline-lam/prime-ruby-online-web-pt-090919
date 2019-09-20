@@ -2,6 +2,11 @@ def prime?(integer)
   #return boolean whether interger is prime num
   
   #get rid of negatives to 1
-  return false if num < 2
+  return false if integer < 2
   
-  #chceck if 
+  #chceck if anything is able to divide it
+  (2...integer).each do |factor|
+    # prime # = nothing divisible by that #
+    # if not prime:
+    if integer % factor == 0 
+      
