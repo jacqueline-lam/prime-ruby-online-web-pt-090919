@@ -17,3 +17,4 @@ def prime?(integer)
   # know what # is a prime, after we check each factor, not divisible by anything
   return true
 end
+
