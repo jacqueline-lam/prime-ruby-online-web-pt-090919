@@ -9,4 +9,8 @@ def prime?(integer)
     # prime # = nothing divisible by that #
     # if not prime:
     if integer % factor == 0 
-      
+      return false
+    end
+  end
+  
+  return true
