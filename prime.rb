@@ -18,3 +18,4 @@ def prime?(integer)
   return true
 end
 
+# prime?(5)  #=> true, 5 % 2,3, or 4 !=0 
