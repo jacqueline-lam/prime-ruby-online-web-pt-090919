@@ -13,5 +13,7 @@ def prime?(integer)
     end
   end
   
+  # only return true after the loop
+  # know what # is a prime, after we check each factor, not divisible by anything
   return true
 end
